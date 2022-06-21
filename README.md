@@ -10,3 +10,5 @@ This project is able to solve any 9x9 Sudoku puzzle board, given that it is in f
 (4) In your terminal, navigate to the working directory of the project. Run "npm init," and click enter until it says "username@device-name Sudoku_Solver %"
 
 (5) Connect the backend by executing "npm run start:backend." The frontend should now be connected to the backend, and the API should work.
+
+To use the solver more than once, refresh the page to enter another puzzle.
