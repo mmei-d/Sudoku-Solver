@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Puzzle Solver</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Sudoku Puzzle Solver</h1>
+    <p>Enter the numbers of the puzzle you want to be solved in the grid. Click "Solve" to completely solve the puzzle!</p>
+    <p class="solution no-display"></p>
+    <div id="puzzle"></div>
+    <button id="solve-button">SOLVE</button>
+
+    <!-- allows axios package to be used -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

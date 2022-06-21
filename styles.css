@@ -1,0 +1,144 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+h1 {
+    color: #568ea6;
+}
+
+#puzzle {
+    width: 31.5vw;
+    height: 31.5vw;
+    margin: 2vw;
+}
+
+.odd-section {
+    background-color: #fffbca;
+}
+
+#puzzle input {
+    width: 3.5vw;
+    height: 3.5vw;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 0.75px grey solid;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* remove default input arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* end remove */
+
+
+#puzzle, #solve-button, .solution {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#solve-button {
+    background-color: #568ea6;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: white;
+    padding: 1vw;
+    border-radius: 5vw;
+    border: none;
+}
+
+#solve-button:hover{
+    background-color: #305f72;
+}
+
+.solution {
+    padding: 1vw 2vw 1vw 2vw;
+    width: fit-content;
+    background-color: #f0b7a4;
+    border-radius: 2vw;
+}
+
+.no-display {
+    display: none;
+}
+
+
+/* Large devices (small screens, laptops, 1024px and down) */
+@media screen and (max-width: 1024px) {
+    #puzzle {
+        width: 45vw;
+        height: 45vw;
+        margin: 2vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #puzzle input {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #solve-button {
+        padding: 2vw;
+    }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media screen and (max-width: 768px) {
+    #puzzle {
+        width: 63vw;
+        height: 63vw;
+        margin: 2vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #puzzle input {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    #solve-button {
+        padding: 2.5vw;
+    }
+}
+
+
+/* Small devices (phones, 480px and down) */
+@media screen and (max-width: 480px) {
+    #puzzle {
+        width: 72vw;
+        height: 72vw;
+        margin: 2vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #puzzle input {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    #solve-button {
+        padding: 2vw;
+    }
+}
