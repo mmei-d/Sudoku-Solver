@@ -11,4 +11,6 @@ This project is able to solve any 9x9 Sudoku puzzle board, given that it is in f
 
 (5) Connect the backend by executing "npm run start:backend." The frontend should now be connected to the backend, and the API should work.
 
+(6) Open the "index.html" file.
+
 To use the solver more than once, refresh the page to enter another puzzle.
