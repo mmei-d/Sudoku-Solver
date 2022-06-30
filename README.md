@@ -1,5 +1,5 @@
-# Sudoku-Solver
-This project is able to solve any 9x9 Sudoku puzzle board, given that it is in fact solvable. To use the Sudoku puzzle solver:
+# Sudoku Puzzle Solver
+This project uses the Sudoku Solver API and is able to solve any 9x9 Sudoku puzzle board, given that it is in fact solvable. To use the Sudoku puzzle solver:
 
 (1) Clone the repository.
 
